@@ -5,8 +5,8 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Replace with your actual Telegram Bot details
-BOT_TOKEN = "8070869108:AAHLxMhTAStlgxfDuLL5GdFfP-Xlj2WRSaM"
-CHAT_ID = "6260215598"
+BOT_TOKEN = "TOKEN"
+CHAT_ID = "CHAT_ID"
 CORRECT_PASSWORD = "pass123"
 
 # Load HTML from file (make sure it's saved in UTF-8)
