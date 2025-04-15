@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🌼 Welcome Back!</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #fdf1f1, #fceaff);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: #444;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            margin: auto;
+            width: 350px;
+            border-radius: 25px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+        }
+        input[type="password"] {
+            padding: 12px;
+            width: 80%;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            background-color: #ffb6c1;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover {
+            background-color: #ff91a4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🔐 Enter Password</h2>
+        <form method="post" action="/login">
+            <input type="password" name="password" placeholder="⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆"><br>
+            <input type="submit" value="⋆｡‧˚ʚ Enter ɞ˚‧｡⋆">
+        </form>
+    </div>
+</body>
+</html>
+
